@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name": "Elitmus Safe Browser",
+    "version": "1.0",
+    "description": "Best way  to avoid cheating",
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":"icon.png"
+    },
+    "background":{
+        "service_worker":"node.js"
+    }
+
+    
+}
